@@ -1,7 +1,3 @@
+import { animalPrinter } from "./utility.js";
 
-
-function printer(name) {
-    console.log(name, "justin is teaching me");
-}
-
-printer("Docta Jones"); 
+animalPrinter(2); 
