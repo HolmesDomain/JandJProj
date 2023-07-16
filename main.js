@@ -1,3 +1,3 @@
 import { animalPrinter } from "./utility.js";
 
-animalPrinter(2); 
+animalPrinter(1); 
