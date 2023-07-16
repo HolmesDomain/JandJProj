@@ -1,3 +1,7 @@
-var stuffVariable = "hi im jacobs program";
 
-console.log(stuffVariable, "justin is teaching me");
+
+function printer(name) {
+    console.log(name, "justin is teaching me");
+}
+
+printer("Docta Jones"); 
