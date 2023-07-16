@@ -1,3 +1,3 @@
-import { printer } from './utility.js';
+import { animalPrinter } from "./utility.js";
 
-printer("Docta Jones");
+animalPrinter(2); 
