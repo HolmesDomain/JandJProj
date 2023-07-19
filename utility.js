@@ -1,29 +1,13 @@
 export function animalPrinter(selector) {
-    var birdPicture = `__
-    /    \
-   / / @ / @ \ \
-   \ _/_/ /\
-    _/__/||
-    /     /\\//
-   |     |\\\
-    \      \\\
-      ___/\\
-       ||||_`;
+  // Source of ASCII art: https://www.asciiart.eu
+  let owlAscii = `  __________\n\ / ___  ___ \\\n/ / @ \\/ @ \\ \\\n\\ \\___/\\___/ /\\\n \\____\\/____/||\n /     /\\\\\\\\\\//\n|     |\\\\\\\\\\\\\n \\      \\\\\\\\\\\\\n   \\______/\\\\\\\\\n    _||_||_`;
+  let squirrelAscii = ` (\\__/)  .~    ~. ))\n /O O  ./      .'\n{O__,   \\    {\n  / .  . )    \\\n  |-| '-' \\    }\n .(   _(   )_.'\n'---.~_ _ _&`;
 
-    var squirrelPicture = ` 
-    (\__/)  .~    ~. ))
-    /O O  ./      .'
-   {O__,   \    {
-     / .  . )    \
-     |-| '-' \    }
-    .(   _(   )_.'
-   '---.~_ _ _&`;
-   
-    if(selector == 1) {
-       console.log(birdPicture); 
-    } else if (selector ==2) { 
-        console.log(squirrelPicture);
-    } else {
-        console.log("wrong animal dingus");
-    }
+  if(selector == 1) {
+      console.log(owlAscii);
+  } else if (selector ==2) {
+      console.log(squirrelAscii);
+  } else {
+      console.log("wrong animal dingus");
+  }
 }
